@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="animate-section">
+        <div class="home-container">
+            <h1>Hi, I'm <span class="highlight">Emmanuel</span></h1>
+            <p>A <span class="highlight">Full Stack Developer</span> specializing in modern web and mobile development.</p>
+            <button class="cta-button">View My Work</button>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="animate-section">
+        <div class="about-container">
+            <img src="img/PhotoRoom-20221209_091037-removebg-preview.png" alt="Emmanuel" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I’m a passionate web developer with expertise in creating responsive and interactive web applications. Skilled in React, React Native, Node.js, and Django, I bring ideas to life on the web.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="animate-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3><i class="fas fa-cloud-sun"></i> Weather App</h3>
+                <p>A weather app built using JavaScript and a weather API for real-time data.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="img/landingpage.png" alt="Project 2">
+                <h3><i class="fas fa-laptop-code"></i> Responsive Landing Page</h3>
+                <p>A responsive landing page built using HTML, CSS, and JavaScript.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="animate-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-bar">
+                <h3><i class="fab fa-react"></i> React</h3>
+                <div class="progress">
+                    <div class="progress-value" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <h3><i class="fab fa-node"></i> Node.js</h3>
+                <div class="progress">
+                    <div class="progress-value" style="width: 85%;"></div>
+                </div>
+            </div>
+            <!-- More skill bars -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="animate-section">
+        <h2>Get in Touch</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-icons">
+            <a href="https://github.com/emmanuel" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/emmanuel" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- More social links -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Emmanuel. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
